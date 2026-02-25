@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-CP2_Suite" class="navigator-link">
+              <span class="suite-name border-passed">CP2 Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-CP2_Suite" class="navigator-link ">
+                    <span>D:\Saurabh_Selenium Sessions\EcommerceCapstoneProject\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-CP2_Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-CP2_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-CP2_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-CP2_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-CP2_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-CP2_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">8 methods,   8 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-CP2_Suite" class="hide-methods passed suite-CP2_Suite"> (hide)</a> <!-- hide-methods passed suite-CP2_Suite -->
+                      <a href="#" panel-name="suite-CP2_Suite" class="show-methods passed suite-CP2_Suite"> (show)</a> <!-- show-methods passed suite-CP2_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-CP2_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CP2_Suite" title="tests.LoginTest" class="method navigator-link" hash-for-method="TC_001_ValidLogin">TC_001_ValidLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CP2_Suite" title="tests.LoginTest" class="method navigator-link" hash-for-method="TC_002_InvalidPassword">TC_002_InvalidPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CP2_Suite" title="tests.LoginTest" class="method navigator-link" hash-for-method="TC_003_EmptyPassword">TC_003_EmptyPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CP2_Suite" title="tests.AddToCartTest" class="method navigator-link" hash-for-method="TC_004_AddSingleItem">TC_004_AddSingleItem</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CP2_Suite" title="tests.AddToCartTest" class="method navigator-link" hash-for-method="TC_005_AddMultipleItems_VerifyCartCount">TC_005_AddMultipleItems_VerifyCartCount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CP2_Suite" title="tests.AddToCartTest" class="method navigator-link" hash-for-method="TC_006_RemoveItemFromCart">TC_006_RemoveItemFromCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CP2_Suite" title="tests.CheckoutTest" class="method navigator-link" hash-for-method="TC_007_PlaceOrderWithValidDetails">TC_007_PlaceOrderWithValidDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CP2_Suite" title="tests.CheckoutTest" class="method navigator-link" hash-for-method="TC_008_CheckoutWithoutAddingItems">TC_008_CheckoutWithoutAddingItems</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-CP2_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-CP2_Suite" class="panel CP2_Suite">
+          <div class="suite-CP2_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.AddToCartTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_004_AddSingleItem">
+                  </a> <!-- TC_004_AddSingleItem -->
+                  <span class="method-name">TC_004_AddSingleItem</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_005_AddMultipleItems_VerifyCartCount">
+                  </a> <!-- TC_005_AddMultipleItems_VerifyCartCount -->
+                  <span class="method-name">TC_005_AddMultipleItems_VerifyCartCount</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_006_RemoveItemFromCart">
+                  </a> <!-- TC_006_RemoveItemFromCart -->
+                  <span class="method-name">TC_006_RemoveItemFromCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-CP2_Suite-class-passed -->
+          <div class="suite-CP2_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_001_ValidLogin">
+                  </a> <!-- TC_001_ValidLogin -->
+                  <span class="method-name">TC_001_ValidLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_002_InvalidPassword">
+                  </a> <!-- TC_002_InvalidPassword -->
+                  <span class="method-name">TC_002_InvalidPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_003_EmptyPassword">
+                  </a> <!-- TC_003_EmptyPassword -->
+                  <span class="method-name">TC_003_EmptyPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-CP2_Suite-class-passed -->
+          <div class="suite-CP2_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.CheckoutTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_007_PlaceOrderWithValidDetails">
+                  </a> <!-- TC_007_PlaceOrderWithValidDetails -->
+                  <span class="method-name">TC_007_PlaceOrderWithValidDetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_008_CheckoutWithoutAddingItems">
+                  </a> <!-- TC_008_CheckoutWithoutAddingItems -->
+                  <span class="method-name">TC_008_CheckoutWithoutAddingItems</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-CP2_Suite-class-passed -->
+        </div> <!-- panel CP2_Suite -->
+        <div panel-name="test-xml-CP2_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\Saurabh_Selenium Sessions\EcommerceCapstoneProject\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;CP2 Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Ecommerce Tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.LoginTest&quot;/&gt;
+      &lt;class name=&quot;tests.AddToCartTest&quot;/&gt;
+      &lt;class name=&quot;tests.CheckoutTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Ecommerce Tests --&gt;
+&lt;/suite&gt; &lt;!-- CP2 Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-CP2_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for CP2 Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Ecommerce Tests (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-CP2_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for CP2 Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-CP2_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for CP2 Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_CP2_Suite');
+function tableData_CP2_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(8);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'TC_002_InvalidPassword')
+data.setCell(0, 2, 'tests.LoginTest')
+data.setCell(0, 3, 10889);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'TC_008_CheckoutWithoutAddingItems')
+data.setCell(1, 2, 'tests.CheckoutTest')
+data.setCell(1, 3, 5818);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'TC_004_AddSingleItem')
+data.setCell(2, 2, 'tests.AddToCartTest')
+data.setCell(2, 3, 5528);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'TC_006_RemoveItemFromCart')
+data.setCell(3, 2, 'tests.AddToCartTest')
+data.setCell(3, 3, 5467);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'TC_005_AddMultipleItems_VerifyCartCount')
+data.setCell(4, 2, 'tests.AddToCartTest')
+data.setCell(4, 3, 5028);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'TC_007_PlaceOrderWithValidDetails')
+data.setCell(5, 2, 'tests.CheckoutTest')
+data.setCell(5, 3, 3735);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'TC_001_ValidLogin')
+data.setCell(6, 2, 'tests.LoginTest')
+data.setCell(6, 3, 1139);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'TC_003_EmptyPassword')
+data.setCell(7, 2, 'tests.LoginTest')
+data.setCell(7, 3, 947);
+window.suiteTableData['CP2_Suite']= { tableData: data, tableDiv: 'times-div-CP2_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 38 seconds</span>
+              <div id="times-div-CP2_Suite">
+              </div> <!-- times-div-CP2_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-CP2_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for CP2 Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-CP2_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">4 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.AddToCartTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">flushReport</span>
+                <br/>
+                <span class="ignored-method-name">setupReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.CheckoutTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">flushReport</span>
+                <br/>
+                <span class="ignored-method-name">setupReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-CP2_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setupReport</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void tests.LoginTest.TC_001_ValidLogin())</span>
+                <span class="method-start">644 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_001_ValidLogin</span>
+                <span class="method-start">12051 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=TC_001_ValidLogin status=SUCCESS method=LoginTest.TC_001_ValidLogin()[pri:0, instan...)</span>
+                <span class="method-start">13201 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void tests.LoginTest.TC_002_InvalidPassword())</span>
+                <span class="method-start">13681 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_002_InvalidPassword</span>
+                <span class="method-start">15541 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=TC_002_InvalidPassword status=SUCCESS method=LoginTest.TC_002_InvalidPassword()[pri...)</span>
+                <span class="method-start">26433 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void tests.LoginTest.TC_003_EmptyPassword())</span>
+                <span class="method-start">26673 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_003_EmptyPassword</span>
+                <span class="method-start">31847 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=TC_003_EmptyPassword status=SUCCESS method=LoginTest.TC_003_EmptyPassword()[pri:0, ...)</span>
+                <span class="method-start">32795 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.AddToCartTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void tests.AddToCartTest.TC_004_AddSingleItem())</span>
+                <span class="method-start">33029 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_004_AddSingleItem</span>
+                <span class="method-start">34883 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=TC_004_AddSingleItem status=SUCCESS method=AddToCartTest.TC_004_AddSingleItem()[pri...)</span>
+                <span class="method-start">40416 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void tests.AddToCartTest.TC_005_AddMultipleItems_VerifyCartCount())</span>
+                <span class="method-start">40681 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_005_AddMultipleItems_VerifyCartCount</span>
+                <span class="method-start">42397 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=TC_005_AddMultipleItems_VerifyCartCount status=SUCCESS method=AddToCartTest.TC_005_...)</span>
+                <span class="method-start">47431 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void tests.AddToCartTest.TC_006_RemoveItemFromCart())</span>
+                <span class="method-start">47707 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_006_RemoveItemFromCart</span>
+                <span class="method-start">49949 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=TC_006_RemoveItemFromCart status=SUCCESS method=AddToCartTest.TC_006_RemoveItemFrom...)</span>
+                <span class="method-start">55420 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CheckoutTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void tests.CheckoutTest.TC_007_PlaceOrderWithValidDetails())</span>
+                <span class="method-start">55693 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_007_PlaceOrderWithValidDetails</span>
+                <span class="method-start">61568 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=TC_007_PlaceOrderWithValidDetails status=SUCCESS method=CheckoutTest.TC_007_PlaceOr...)</span>
+                <span class="method-start">65304 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void tests.CheckoutTest.TC_008_CheckoutWithoutAddingItems())</span>
+                <span class="method-start">65561 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_008_CheckoutWithoutAddingItems</span>
+                <span class="method-start">67178 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=TC_008_CheckoutWithoutAddingItems status=SUCCESS method=CheckoutTest.TC_008_Checkou...)</span>
+                <span class="method-start">73009 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">flushReport</span>
+                <span class="method-start">73394 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
